@@ -160,19 +160,16 @@ button:hover {
 
 .quote {
     font-size: 36px;
-    width: 50%; /* Restrict width for better centering */
+    width: 80%; /* Restrict width for better centering */
     font-style: italic;
-    color: #1f2937bc;
-    text-align: justify;
+    color: #1f2937;
     margin: 20px auto;
 }
 
 .author {
     font-size: 20px;
-    margin-left: 50%;
-    font-style:italic;
-    font-weight: 500;
-    color: #1f2937a7;
+    font-weight: bold;
+    color: #1f2937;
     max-width: 80%;
     text-align: end; 
 }
@@ -182,10 +179,10 @@ button:hover {
     justify-content: space-around; /* Align content and button horizontally */
     padding: 20px;
     background-color: #3882f6;
-    width: 60%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 20%;
+    width: 1000px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: 500px;
     text-align: left;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
