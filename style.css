@@ -5,6 +5,7 @@
     padding-bottom: 20px;
     padding-left: 100px;
     padding-right: 100px;
+    margin-bottom: 10px;
 }
 
 .header-text{
@@ -24,6 +25,7 @@
     color: #f9faf8;
     font-weight: bold;
     margin: 0;
+    padding-bottom: 40px;
    
 }
 .logoandlinks{
@@ -32,7 +34,7 @@
     align-items: center;
     color: #f9faf8;
     margin-bottom: 20px;
-    /* padding: 30px; */
+    padding: 30px;
 }
 
 ul{
@@ -92,6 +94,11 @@ button:hover {
 /* .image img {
     display: none; 
 } */
+
+.Information{
+    padding:50px;
+    
+}
 .secondsec{
     display: flex;
     flex: 1; 
@@ -113,7 +120,7 @@ justify-content: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .secondsectionimg{
@@ -126,4 +133,36 @@ justify-content: center;
 .secondsectionimg:hover{
     filter: brightness(0.7); 
     transform: scale(1.05); 
+}
+
+.thirdsec{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    
+    
+}
+
+.quote{
+    font-size: 36px;
+    /* font-weight: 10; */
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+    margin: 0px 400px;
+    /* line-height: 1.6; */
+    /* max-width: 80%;  */
+}
+
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+    max-width: 80%; 
+
 }
