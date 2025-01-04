@@ -25,7 +25,7 @@
     color: #f9faf8;
     font-weight: bold;
     margin: 0;
-    padding-bottom: 40px;
+    padding: 30px;
    
 }
 .logoandlinks{
@@ -34,7 +34,7 @@
     align-items: center;
     color: #f9faf8;
     margin-bottom: 20px;
-    padding: 30px;
+    padding: 10px;
 }
 
 ul{
@@ -49,6 +49,10 @@ ul{
 a{
     text-decoration: none;
     color: #f9faf8;
+}
+
+a:hover{
+    color: #6b7280;
 }
 .header-content{
     display: flex;
@@ -96,7 +100,7 @@ button:hover {
 } */
 
 .Information{
-    padding:50px;
+    padding:20px;
     
 }
 .secondsec{
@@ -141,7 +145,7 @@ justify-content: center;
     padding: 30px;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     
     
 }
@@ -165,4 +169,21 @@ justify-content: center;
     text-align: right;
     max-width: 80%; 
 
+}
+
+.forthsec{
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #3882f6;
+    width: 1000px;
+    height: auto;
+    margin: 50px 500px ;
+    /* text-align: center; */
+}
+
+.forthsec .submit{
+    border: #E5E7EB solid 2px;
+    border-radius: 10px;
 }
